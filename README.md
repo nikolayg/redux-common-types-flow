@@ -1,23 +1,34 @@
-# redux-common-types-flow
-Common Flow types for Redux Actions and Reducers
+# About this module
 
-This module exports common Flow types for Redux Actions and Reducers.
+This module exports Common [Flow](https://flow.org/) types for Redux Actions and Reducers,
 
-Here are the definitions:
+# Installation:
+
+```bash
+npm install --save redux-common-types-flow
+```
+or
+
+```bash
+yarn add redux-common-types-flow
+```
+# What and How
+
+This module exports the following common Flow types for Redux Actions and Reducers.
+
+- `APIAction<Payload>`
+- `APIAction<Payload>`
+- `ActionCreator<Params, Payload>`
+- `APIActionCreator<Params, Payload>`
+- `Reducer<State, Payload>`
+
+Import the types as:
 
 ```javascript
-export interface Action<Payload> {
-  type: string;
-  payload: Payload;
-}
-
-export type APIAction<Payload> = Action<Promise<Payload>>;
-
-export type ActionCreator<Params, Payload> = (params: Params) => Action<Payload>;
-
-export type APIActionCreator<Params, Payload> = (params: Params) => APIAction<Payload>;
-
-export type Reducer<State, Payload> = (state: State, action: Action<Payload>) => State;
+import {type APIActionCreator} from 'redux-common-types-flow';
+import {type Action} from 'redux-common-types-flow';
+// ....
 ```
 
-For more documentation and examples visit http://nikgrozev.com/2017/09/16/redux-common-types/
+For more information and examples read 
+[this article](http://nikgrozev.com/2017/09/16/redux-common-types/).

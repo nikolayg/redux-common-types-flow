@@ -1,6 +1,6 @@
 {
   "name": "redux-common-types-flow",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Common Flow types for Redux Actions and Reducers Edit",
   "main": "index.js",
   "scripts": {
