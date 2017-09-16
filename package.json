@@ -1,0 +1,26 @@
+{
+  "name": "redux-common-types-flow",
+  "version": "1.0.0",
+  "description": "Common Flow types for Redux Actions and Reducers Edit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikolayg/redux-common-types-flow.git"
+  },
+  "keywords": [
+    "redux",
+    "flow",
+    "action",
+    "reducer",
+    "types"
+  ],
+  "author": "Nikolay Grozev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nikolayg/redux-common-types-flow/issues"
+  },
+  "homepage": "https://github.com/nikolayg/redux-common-types-flow#readme"
+}
